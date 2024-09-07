@@ -73,7 +73,7 @@ Se você salvou a chave em um local diferente, altere o caminho `~/.ssh/id_rsa` 
 ![Imagem de como chegar nas chaves SSH](image2.png)
 
 4. Clique em New SSH Key.
-5. Cole a chave pública copiada no campo "Key" e dê um nome em "Title" para identificar a chave.
+5. Cole a chave pública copiada no campo `Key` e dê um nome em `Title` para identificar a chave.
 6. Clique em Add SSH Key.
 
 ### 8. Testando a conexão SSH com o GitHub
@@ -84,7 +84,3 @@ ssh -T git@github.com
 ```
 
 Se tudo estiver correto, você verá uma mensagem de sucesso indicando que a autenticação via SSH foi concluída com êxito.
-
----
-
-Agora você já pode usar o Git com autenticação via SSH sem precisar inserir suas credenciais a cada operação!
